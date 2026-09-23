@@ -1,3 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Du lieu nghien cuu chi luu o may local (ban PDF goc da co trong git history
+# tai data/raw/, khong day lai de tranh nhan doi ~111MB)
+old_data/
+
+# Output cua pipeline (giu _manifest.json local, chi commit code)
+data/cleaned_json/*.json
+!data/cleaned_json/.gitkeep
+
 # Logs
 logs
 *.log
