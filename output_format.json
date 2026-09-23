@@ -1,0 +1,20 @@
+{
+  "doc_id": "DENSO_A1B2C3D4",
+  "source_file": "sop_bao_tri_may_dap_a12.pdf",
+  "source_type": "pdf",
+  "language": "vi",
+  "access_level": 1,
+  "created_at": "2026-09-23T09:48:28Z",
+  "cleaned_text": "--- [Trang 1] ---\nHƯỚNG DẪN KIỂM TRA VÀ XỬ LÝ SỰ CỐ MÁY DẬP STAMP-A12\n\n1. Hiện tượng & Mã lỗi cảnh báo\nMáy dập dừng khẩn cấp giữa ca, đèn cảnh báo đỏ nhấp nháy trên bảng điều khiển trung tâm. Màn hình HMI hiển thị mã lỗi ERR-305. Đồng hồ đo áp suất dầu bôi trơn sơ cấp P-102 báo dưới 0.35 MPa.\n\n--- [Trang 2] ---\n2. Bảng thông số an toàn và vận hành\nĐối chiếu các thông số áp suất và nhiệt độ theo bảng quy chuẩn bảo trì định kỳ trước khi thực hiện can thiệp cơ khí.\n\n--- [Trang 3] ---\n3. Các bước xử lý sự cố mã lỗi ERR-305\nBước 1: Ngắt cầu dao điện chính của máy dập A12 và cắm biển cảnh báo an toàn.\nBước 2: Dùng cờ-lê 14 vặn van xả cặn phụ ngược chiều kim đồng hồ 2 vòng để xả áp suất nghẽn.\nBước 3: Bơm bổ sung dầu bôi trơn đạt ngưỡng 0.50 MPa.\nBước 4: Nhấn nút Reset trên tủ điều khiển và chạy thử không tải 2 phút.",
+  "tables": [
+    {
+      "page": 2,
+      "markdown": "| Thông số | Ngưỡng an toàn | Ngưỡng nguy hiểm |\n|---|---|---|\n| Áp suất dầu cấp (P-102) | 0.40 - 0.60 MPa | < 0.35 MPa |\n| Nhiệt độ buồng bơm | 45 - 60 °C | > 75 °C |\n| Lưu lượng dầu tuần hoàn | 12 - 15 L/phút | < 8 L/phút |"
+    }
+  ],
+  "metadata": {
+    "total_pages": 3,
+    "file_size_kb": 245.5,
+    "is_corrupted": false
+  }
+}
