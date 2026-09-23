@@ -13,6 +13,17 @@ venv/
 # tai data/raw/, khong day lai de tranh nhan doi ~111MB)
 old_data/
 
+# Du lieu san xuat va ket qua test tu dong tao
+data/raw/*
+!data/raw/level_1/
+!data/raw/level_1/.gitkeep
+!data/raw/level_2/
+!data/raw/level_2/.gitkeep
+!data/raw/level_3/
+!data/raw/level_3/.gitkeep
+pipeline/output_test/*.json
+parsers/*/output_test/*.json
+
 # Output cua pipeline (giu _manifest.json local, chi commit code)
 data/cleaned_json/*.json
 !data/cleaned_json/.gitkeep
